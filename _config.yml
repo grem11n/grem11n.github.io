@@ -4,9 +4,6 @@ description: This is my blog
 paginate: 10
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  header_offset: 2
-  input: GFM
 
 gems:
   - jekyll-paginate
