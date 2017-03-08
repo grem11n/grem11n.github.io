@@ -3,3 +3,6 @@ author: Yurii Rochniak
 description: This is my blog
 paginate: 10
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

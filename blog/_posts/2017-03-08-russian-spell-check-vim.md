@@ -9,9 +9,9 @@ You can implement a spell check in your VIM installation in a moment, it you nee
 
 Just type a command:
 
-~~~~
+``` html
 :setlocal spell spelllang=en_us
-~~~~
+```
 
 Or add it into your vimrc file.
 
@@ -21,9 +21,9 @@ However, you may want to check a few more languages. This is simple as well:
 2.  Download it, for example, into ~/.vim/spell. Create a directory, if it doesn't exist.
 3.  Update your vimrc settings. In my case it is:
 
-~~~ bash
+``` bash
 setlocal spell spelllang=en_us,ru_ru
-~~~
+```
 
 
 Congratulations! You're all set!
