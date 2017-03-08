@@ -16,8 +16,8 @@ layout: main
 						{% for post in site.posts offset: 0 limit: 4 %}
                                                   {% if post.categories contains 'books' %}
 						<li>
-							<a href="{{ site.baseurl }}/{{ post.url }}"><h2>{{ post.title }}</h2></a>
-							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
+							<a href="{{ site.url }}/{{ post.url }}"><h2>{{ post.title }}</h2></a>
+							<img src="{{ site.url }}/assets/{{ post.featured }}" alt="">
 							{{ post.excerpt }}
 						</li>
                                                   {% endif %}

@@ -18,8 +18,8 @@ layout: landing
                                                     {% for post in site.posts offset: 0 limit: 2 %}
 							<ul class="style">
 								<li>
-									<a href="{{ site.baseurl }}/{{ post.url }}"><span class="fa fa-bookmark"></span></a>
-									<h3><a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h3>
+									<a href="{{ site.url }}/{{ post.url }}"><span class="fa fa-bookmark"></span></a>
+									<h3><a href="{{ site.url}}/{{ post.url }}">{{ post.title }}</a></h3>
 									<span>{{ post.excerpt }}</span>
 								</li>
 								<li>
@@ -32,8 +32,8 @@ layout: landing
                                                     {% for post in site.posts offset: 2 limit: 2 %}
 							<ul class="style">
 								<li>
-									<a href="{{ site.baseurl }}/{{ post.url }}"><span class="fa fa-bookmark"></span></a>
-									<h3><a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h3>
+									<a href="{{ site.url }}/{{ post.url }}"><span class="fa fa-bookmark"></span></a>
+									<h3><a href="{{ site.url}}/{{ post.url }}">{{ post.title }}</a></h3>
 									<span>{{ post.excerpt }}</span>
 								</li>
 							</ul>
