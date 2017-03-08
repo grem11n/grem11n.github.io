@@ -117,7 +117,8 @@
                 border-left: solid 8px #555555;
                 background-color: #eee;
                 font-family: 'Menlo', 'Consolas', 'Monaco', 'Courier New';
-                padding: 3;
+                padding: 3px;
+                padding-left: 15px;
                 line-height: 23px;
                 margin-bottom: 30px;
                 white-space: pre;
