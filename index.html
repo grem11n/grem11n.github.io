@@ -1,0 +1,46 @@
+---
+
+title: Yurii Rochniak
+layout: landing
+---
+
+<!-- Main -->
+	<div id="main" class="wrapper style1">
+		<section class="container">
+			<header class="major">
+				<h2>Recent posts</h2>
+			</header>
+			<div class="row">
+
+				<!-- Content -->
+					<div class="6u">
+						<section>
+                                                    {% for post in site.posts offset: 0 limit: 2 %}
+							<ul class="style">
+								<li>
+									<a href="{{ site.baseurl }}/{{ post.url }}"><span class="fa fa-bookmark"></span></a>
+									<h3><a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h3>
+									<span>{{ post.excerpt }}</span>
+								</li>
+								<li>
+							</ul>
+                                                    {% endfor %}
+						</section>
+					</div>
+					<div class="6u">
+						<section>
+                                                    {% for post in site.posts offset: 2 limit: 2 %}
+							<ul class="style">
+								<li>
+									<a href="{{ site.baseurl }}/{{ post.url }}"><span class="fa fa-bookmark"></span></a>
+									<h3><a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h3>
+									<span>{{ post.excerpt }}</span>
+								</li>
+							</ul>
+                                                    {% endfor %}
+						</section>
+					</div>
+
+			</div>
+		</section>
+	</div>
