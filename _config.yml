@@ -2,3 +2,7 @@ name: Yet another blog
 author: Yurii Rochniak
 description: This is my blog
 paginate: 10
+markdown: redcarpet
+redcarpet:
+    extension:
+        - fenced_code_blocks
