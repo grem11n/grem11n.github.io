@@ -4,7 +4,3 @@ description: This is my blog
 paginate: 10
 markdown: kramdown
 highlighter: rouge
-
-gems:
-  - jekyll-paginate
-  - rouge
