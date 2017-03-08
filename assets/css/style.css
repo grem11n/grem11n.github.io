@@ -4,6 +4,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 @import url("font-awesome.min.css");
+@import url("syntax.css")
 @import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
 /* Basic */
@@ -111,6 +112,37 @@
 	footer.major {
 		padding-top: 3em;
 	}
+
+       pre {
+                border-left: solid 8px #555555;
+                background-color: #eee;
+                font-family: 'Menlo', 'Consolas', 'Monaco', 'Courier New';
+                padding: 3;
+                line-height: 23px;
+                margin-bottom: 30px;
+                white-space: pre;
+                overflow-x: auto;
+                word-break: inherit;
+                word-wrap: inherit;
+       }
+
+       .highlight td {
+                padding: 8px 15px;
+       }
+
+       .gl {
+                background: #fafafa;
+                border-right: 1px solid #ddd;
+                color: #999;
+
+                /* Stop line numbers being visually selected */
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                 user-select: none;
+        }
 
 /* Form */
 

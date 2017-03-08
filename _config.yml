@@ -7,3 +7,7 @@ highlighter: rouge
 kramdown:
   header_offset: 2
   input: GFM
+
+gems:
+  - jekyll-paginate
+  - rouge
