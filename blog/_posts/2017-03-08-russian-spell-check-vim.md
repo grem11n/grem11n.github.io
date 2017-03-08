@@ -9,9 +9,9 @@ You can implement a spell check in your VIM installation in a moment, it you nee
 
 Just type a command:
 
-``` html
+{% highlight ruby lineos %}
 :setlocal spell spelllang=en_us
-```
+{% endhighlight %}
 
 Or add it into your vimrc file.
 
