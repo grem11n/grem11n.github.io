@@ -1,9 +1,10 @@
-----
+---
 title: How to add Russian spell check to VIM
-author: Yurii Rochniak
 featured: images/blog/vim.svg
+date: 2017-03-08 21:07:30 +0200
+categories: blog
 layout: post
-----
+---
 
 You can implement a spell check in your VIM installation in a moment, it you need it (I do).
 
