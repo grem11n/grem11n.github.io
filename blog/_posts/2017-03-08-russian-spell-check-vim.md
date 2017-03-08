@@ -1,7 +1,8 @@
 ---
 title: How to add Russian spell check to VIM
-featured: images/blog/vim.svg
+featured: images/blog/vim.png
 date: 2017-03-08 21:07:30 +0200
+comments: true
 layout: post
 ---
 
@@ -9,9 +10,9 @@ You can implement a spell check in your VIM installation in a moment, it you nee
 
 Just type a command:
 
-{% highlight ruby lineos %}
+```
 :setlocal spell spelllang=en_us
-{% endhighlight %}
+```
 
 Or add it into your vimrc file.
 
