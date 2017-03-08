@@ -2,11 +2,10 @@
 title: How to add Russian spell check to VIM
 featured: images/blog/vim.svg
 date: 2017-03-08 21:07:30 +0200
-categories: blog
 layout: post
 ---
 
-You can implement a spell check in your VIM installation in a moment, it you need it (I do).
+<p>You can implement a spell check in your VIM installation in a moment, it you need it (I do).
 
 Just type a command:
 
@@ -25,5 +24,5 @@ However, you may want to check a few more languages. This is simple as well:
 setlocal spell spelllang=en_us,ru_ru
 ```
 
-Congratulations! You're all set!
+Congratulations! You're all set!</p>
 

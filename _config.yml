@@ -1,4 +1,4 @@
-name: Horizons
-description: Horizons template for Jekyll
+name: Yet another blog
+author: Yurii Rochniak
+description: This is my blog
 paginate: 10
-baseurl: /
