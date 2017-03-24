@@ -5,3 +5,4 @@ paginate: 10
 markdown: kramdown
 highlighter: rouge
 twitter_username: grem11n
+permalink: pretty
