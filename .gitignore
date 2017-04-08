@@ -5,3 +5,4 @@ _site/
 docker-compose.yaml
 Gemfile*
 .bundle/
+.DS_Store
