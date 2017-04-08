@@ -6,3 +6,5 @@ markdown: kramdown
 highlighter: rouge
 twitter_username: grem11n
 permalink: pretty
+gems:
+  - jekyll-feed
